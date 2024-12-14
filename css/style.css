@@ -229,3 +229,62 @@ footer {
 .leyes-container ul li a:hover, .recursos-container ul li a:hover {
     text-decoration: underline;
 }
+
+#contacto {
+    background-color: #001f3f; /* Fondo azul oscuro */
+    color: white;
+    padding: 30px 20px;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contacto-info, .contacto-servicios, .contacto-detalles {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contacto-info h3, .contacto-servicios h3, .contacto-detalles h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.contacto-info p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.contacto-servicios ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contacto-servicios ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contacto-servicios ul li:before {
+    content: "›"; /* Flecha para los puntos de la lista */
+    color: white;
+    margin-right: 5px;
+}
+
+.contacto-detalles p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
