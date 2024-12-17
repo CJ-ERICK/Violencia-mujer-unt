@@ -87,31 +87,67 @@ footer {
     margin-bottom: 20px;
 }
 
-#cifras {
-    background-color: #f4f4f4;
+#antecedentes {
+    background-color: #f9f4ff; /* Fondo morado claro */
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#antecedentes h2 {
+    color: #6a0dad; /* Morado oscuro */
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#antecedentes p {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.antecedentes-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.antecedente {
+    background-color: #eae6f8; /* Morado claro */
     padding: 20px;
     border-radius: 8px;
-    margin-top: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
 }
 
-#cifras h2 {
+.antecedente h3 {
     color: #6a0dad;
-    text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-#cifras p {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 20px;
+.antecedente p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-.cifras-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
+.antecedente a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #7b2cbf; /* Enlace morado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.antecedente a:hover {
+    text-decoration: underline;
+    color: #5a189a; /* Morado más oscuro */
 }
 
 .cifra-item {
